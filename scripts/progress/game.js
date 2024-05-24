@@ -382,7 +382,7 @@ function resetGame() {
 }
 
 function calcCpuUpgradeEffect() {
-  var eff = D(2);
+  var eff = D(100000);
   if (game.quantumUpgradeBought.includes('11')) eff = eff.mul(1.1);
   if (game.challengeEntered == 2 || game.challengeEntered == 7) eff = eff.pow(0.75);
   return eff;

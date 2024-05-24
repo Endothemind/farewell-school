@@ -5,7 +5,7 @@
     // Base_Increaser.exe
     [
       {
-        "itemName": "Base_Increaser.exe",
+        "itemName": "Base_Increaser.sex",
         "itemCost": '0.03',
         "itemDesc": "Increase your base to store more number",
       },

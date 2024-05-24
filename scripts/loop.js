@@ -1,4 +1,4 @@
-var tickDone = 0, tSpeed = 0.033;
+var tickDone = 0, tSpeed = 0.0145;
 setInterval( function () {
   var dt = (new Date().getTime()-game.tLast)/1000*game.gameSpeed;
   if (dt >= 120*game.gameSpeed) {

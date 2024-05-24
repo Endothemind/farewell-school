@@ -1,7 +1,7 @@
 var tickDone = 0, tSpeed = 0.033;
 setInterval( function () {
   var dt = (new Date().getTime()-game.tLast)/1000*game.gameSpeed;
-  if (dt >= 60*game.gameSpeed) {
+  if (dt >= 120*game.gameSpeed) {
     commandAppend(`${timeNotation(dt/game.gameSpeed)} of progress done!`, 0, 1);
   }
   if (!gamePaused) {

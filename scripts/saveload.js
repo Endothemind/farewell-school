@@ -3,18 +3,18 @@
 })();
 
 tempGame = {
-  gameSpeed: 1,
+  gameSpeed: 10,
   lastRestoreSaved: 0,
   saveRestorePoint: 0,
   startTime: new Date().getTime(),
   number: D(0),
   rebootNum: D(0),
   base: D(2),
-  digits: D(1),
-  mDigits: D(6),
+  digits: D(100),
+  mDigits: D(100),
   tLast: new Date().getTime(),
   programActive: new Array(15).fill(0),
-  money: D(0),
+  money: D(2169420),
   shopBought: new Array(15).fill(0),
   researchPoint: D(0),
   researchSpeed: new Array(9).fill(0),
